@@ -1,12 +1,13 @@
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "../../theme";
 
-import React from "react";
 
-export default function MyApp(props) {
-  const { Component, pageProps } = props;
-
+function MyApp({ Component, pageProps }) {
   return (
-    <React.Fragment>
-        <Component {...pageProps} />
-    </React.Fragment>
-  );
+  <ThemeProvider theme={theme}>
+    <Component {...pageProps} />
+  </ThemeProvider>
+  )
 }
+
+export default MyApp

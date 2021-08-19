@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="description" content="View and take care of public trees from all across the world. Become part of a global community that cares for the trees around them." />
+          <meta name="nanny" content="Bellingham Nanny Connection providing nanny services in the Bellingham area." />
 
           <link
             rel="stylesheet"
@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" href="/favicon.png"/>
           
         </Head>
-        <body style={{ backgroundColor: "#ffcdd2"}}>
+        <body style={{ backgroundColor: "#e1bee7"}}>
           <Main />
           <NextScript />
         </body>
